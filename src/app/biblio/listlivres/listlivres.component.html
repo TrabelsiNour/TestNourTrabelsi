@@ -1,1 +1,5 @@
-<p>listlivres works!</p>
+<h1>Liste des livres </h1>
+<ng-container *ngFor="let l of livres ">
+  <Nour-livre [l]="livres"></Nour-livre>
+</ng-container>
+

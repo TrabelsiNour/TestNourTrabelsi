@@ -1,1 +1,5 @@
-<p>livre works!</p>
+nb de livres est 3 {{l.couverture}} {{l.titre}}<br>
+Date Edition{{l.dateEdition|date}}<br>
+<button type="button" *ngIf="l.red" class="btn btn-primary ">prix</button>
+
+{{l.prix}}
